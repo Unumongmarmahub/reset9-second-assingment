@@ -1,0 +1,155 @@
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* google font inter  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* google font Italianno  */
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+/* common style  */
+
+.btn-primary {
+  border-radius: 30px;
+  background: rgb(230, 83, 60);
+  padding: 12px 30px 12px 30px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.simple-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: black;
+}
+
+/* start style header section  */
+
+.header-container {
+  width: 100%;
+  margin-top: 55px;
+}
+
+.nav-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fitness-text {
+  color: rgb(230, 83, 60);
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.info-container {
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 26px;
+  align-items: center;
+}
+
+.info-container > li {
+  list-style: none;
+}
+
+.info-container > li > a {
+  text-decoration: none;
+  margin: 0 25px;
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.info-container > .home {
+  border-radius: 40px;
+  padding: 15px 15px 15px 15px;
+  background: rgb(230, 83, 60);
+}
+
+.hamburger {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+/* end style header section */
+
+/* start style banner section  */
+
+.banner-container {
+  width: 80%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-container {
+  width: 100%;
+}
+
+.banner-text {
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.text-container > P {
+  width: 100%;
+}
+
+.special-text {
+  font-family: "Italianno", cursive;
+  font-weight: 700;
+}
+
+.btn-download {
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 12px 30px 12px 30px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  background: black;
+  margin-left: 20px;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+/* start style main section  */
+
+/* .main-container {
+  width: 80%;
+} */
+
+.main-head {
+  color: rgb(255, 255, 255);
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}

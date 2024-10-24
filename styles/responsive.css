@@ -1,0 +1,30 @@
+/* small device */
+
+@media screen and (max-width: 576px) {
+
+    /* style nav ber section  */
+
+  .nav-container {
+    align-items: center;
+  }
+
+  .fitness-text {
+    text-align: center;
+  }
+
+  .info-container > li > a,
+  .home {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    text-align: center;
+  }
+
+  /* style banner section */
+
+  .banner-container{
+    flex-direction: column;
+  }
+}
